@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    position: relative;
+}
+.logo {
+  font-size: 22px;
+}
+.burger {
+  background-image: url(./../icons/burger.svg);
+  width: 42px;
+  height: 42px;
+}
+.menu {
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  padding: 45px;
+}
+.burger:hover>.menu{
+    display: block;
+}
