@@ -1,0 +1,40 @@
+.wellcome{
+    background-image:linear-gradient(90deg, #FBED96,#ABECD6);
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.wellcome>p{
+  font-size: 22px;
+}
+.wellcome>h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.vector{
+    display: inline-block;
+    background-image:url(./../icons/vector.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: bottom;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+    .wellcome>p{
+        font-size: 44px;
+      }
+      .wellcome>h2{
+        font-size: 60px;
+        
+    }
+    
+}
