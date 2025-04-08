@@ -18,9 +18,22 @@
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position: bottom;
+    /* background-image:url(./../icons/vector.svg), linear-gradient(45deg, #40C4FF 81%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #189FFF;
 }
-
-
+.contact{
+    background-color:black;
+    color: white;
+    border-radius: 25px;
+    padding: 1em 2em;
+    margin-right: 15px;
+}
+.download>img{
+    transform: translateY(4px);
+    
+}
 
 
 
