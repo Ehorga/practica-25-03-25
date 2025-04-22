@@ -1,0 +1,76 @@
+.projects > h2 {
+  font-size: 56px;
+  font-weight: 200;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  width: 100%;
+}
+.project > h3 {
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.btns > button {
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  margin-right: 10px;
+}
+.btns > button:first-child {
+  background-color: rgba(0, 0, 255, 0.536);
+}
+.btns > button:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.516);
+}
+.btns > button:nth-child(3) {
+  background-color: rgba(72, 255, 0, 0.575);
+}
+.project > img {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.project > ul > li {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
+.project > ul > li > a > img {
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 15px;
+  transform: translateY(5px);
+}
+
+@media screen and (min-width: 992px) {
+  .flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hide {
+    display: block;
+  }
+  .project {
+    width: 30%;
+  }
+
+  .projects > h2 {
+    font-size: 92px;
+    line-height: 82px;
+  }
+  .project > h3 {
+    font-size: 38px;
+    
+  }
+}
